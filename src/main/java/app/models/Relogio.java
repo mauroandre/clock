@@ -6,6 +6,12 @@ import java.util.List;
 public class Relogio {
 
 	private List<RelogioAngulo> angulosCalculados = new ArrayList<RelogioAngulo>();
+	
+	public void calculaAnguloPara(int hora, int minuto) {
+		if (!jaCalculouPara(hora, minuto)){
+			angulosCalculados.add(new RelogioAngulo(hora, minuto));
+		}
+	}
 
 	private boolean jaCalculouPara(int hora, int minuto) {
 		for (RelogioAngulo relogioAngulo : angulosCalculados) {
@@ -15,12 +21,6 @@ public class Relogio {
 		}
 		
 		return false;
-	}
-
-	public void calculaAnguloPara(int hora, int minuto) {
-		if (!jaCalculouPara(hora, minuto)){
-			angulosCalculados.add(new RelogioAngulo(hora, minuto));
-		}
 	}
 
 	public float getAnguloPara(int hora, int minuto) {

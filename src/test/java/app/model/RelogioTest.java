@@ -1,4 +1,4 @@
-package app.controllers;
+package app.model;
 
 import junit.framework.Assert;
 

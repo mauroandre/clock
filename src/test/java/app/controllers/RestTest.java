@@ -1,4 +1,4 @@
-package app.model;
+package app.controllers;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -67,7 +67,7 @@ public class RestTest extends Mockito{
 	
 	@Test
 	public void deveCalcularAngulosSomenteSemParametros() throws ServletException, IOException{        
-        when(request.getPathInfo()).thenReturn("");        
+        when(request.getPathInfo()).thenReturn(null);        
         rest.service(request, response);
         
         Assert.assertEquals("0.0\n", retorno.toString());

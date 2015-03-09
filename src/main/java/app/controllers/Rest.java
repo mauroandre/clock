@@ -49,7 +49,10 @@ public class Rest extends HttpServlet{
 	}
 
 	private String[] getParams(HttpServletRequest request) {
-		return request.getPathInfo().split("/");
+		if (request.getPathInfo() != null)
+			return request.getPathInfo().split("/");
+		
+		return new String[0];
 	}
 
 	public Relogio getRelogio() {
