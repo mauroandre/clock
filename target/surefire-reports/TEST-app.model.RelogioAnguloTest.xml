@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install compile"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe12Horas" time="0"/>
-  <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe60Minutos" time="0"/>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComPonteirosInvertidos" time="0"/>
+  <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe60Minutos" time="0"/>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAngulo" time="0"/>
 </testsuite>
