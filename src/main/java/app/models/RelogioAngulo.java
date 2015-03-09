@@ -21,7 +21,7 @@ public class RelogioAngulo {
 	}
 
 	private float getMenorAngulo(float ang) {
-		if (ang  > 360 || ang < -360){
+		if (ang  > 360){
 			ang = (ang % 360);
 		}
 		

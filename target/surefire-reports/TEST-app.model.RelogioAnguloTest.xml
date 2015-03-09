@@ -60,8 +60,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe60Minutos" time="0"/>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe12Horas" time="0"/>
+  <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComMaisDe60Minutos" time="0"/>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAnguloComPonteirosInvertidos" time="0"/>
   <testcase classname="app.model.RelogioAnguloTest" name="deveCalcularAngulo" time="0"/>
 </testsuite>
